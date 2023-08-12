@@ -6,7 +6,7 @@ This project shows a clear example of Testcontainers as a replacement for _Mocks
 > This branch extends the [original project](https://github.com/gabrielcostasilva/testcontainers-spring.git) by using Testcontainers at development time.
 
 ## Overview
-Please refer to [the commit](https://github.com/gabrielcostasilva/testcontainers-spring/tree/test-main) to see the changes. 
+Please refer to [the commit](https://github.com/gabrielcostasilva/testcontainers-spring/commit/94ac20395d7bbc907c660e72f377f35da72f2b26) to see the changes. 
 
 In a nutshell, this branch uses Testcontainers as a [replacement](https://spring.io/blog/2023/06/23/improved-testcontainers-support-in-spring-boot-3-1) for `Dockerfile` or `docker-compose` files. Thus, you benefit from dynamic configuration with `@ServiceConnection` annotation. 
 
