@@ -5,6 +5,11 @@ This project shows a clear example of Testcontainers as a replacement for _Mocks
 
 > Check out our [_hello-world project_](https://github.com/gabrielcostasilva/testcontainers-hello-world.git) to get started with Testcontainers.
 
+## Other Branches
+
+This original project is extended in other branches, as follows:
+- [spring-3](https://github.com/gabrielcostasilva/testcontainers-spring/tree/spring-3) replaces the need for setting database properties with @ServiceConnection
+
 ## Overview
 This project consist of a single POJO ([`Customer`](./src/main/java/com/example/testcontainersb/Customer.java)) and its DAO ([`CustomerRepository`](./src/main/java/com/example/testcontainersb/CustomerRepository.java)). 
 
