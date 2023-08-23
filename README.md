@@ -12,6 +12,7 @@ This original project is extended in other branches, as follows:
 
 - [test-main](https://github.com/gabrielcostasilva/testcontainers-spring/tree/test-main) benefits from `@ServiceConnection` by using Testcontainers at development time.
 
+- [selenide-selenium-grid](https://github.com/gabrielcostasilva/testcontainers-spring/tree/selenide-selenium-grid) adds Selenide/Selenium Grid to the `spring-3` project in order to carry out E2E tests.
 
 ## Overview
 This project consist of a single POJO ([`Customer`](./src/main/java/com/example/testcontainersb/Customer.java)) and its DAO ([`CustomerRepository`](./src/main/java/com/example/testcontainersb/CustomerRepository.java)). 
