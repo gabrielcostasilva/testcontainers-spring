@@ -8,11 +8,13 @@ This project shows a clear example of Testcontainers as a replacement for _Mocks
 ## Other Branches
 
 This original project is extended in other branches, as follows:
-- [spring-3](https://github.com/gabrielcostasilva/testcontainers-spring/tree/spring-3) replaces the need for setting database properties with `@ServiceConnection`.
+- [`spring-3`](https://github.com/gabrielcostasilva/testcontainers-spring/tree/spring-3) replaces the need for setting database properties with `@ServiceConnection`.
 
-- [test-main](https://github.com/gabrielcostasilva/testcontainers-spring/tree/test-main) benefits from `@ServiceConnection` by using Testcontainers at development time.
+- [`test-main`](https://github.com/gabrielcostasilva/testcontainers-spring/tree/test-main) benefits from `@ServiceConnection` by using Testcontainers at development time.
 
-- [selenide-selenium-grid](https://github.com/gabrielcostasilva/testcontainers-spring/tree/selenide-selenium-grid) adds Selenide/Selenium Grid to the `spring-3` project in order to carry out E2E tests.
+- [`selenide-selenium-grid`](https://github.com/gabrielcostasilva/testcontainers-spring/tree/selenide-selenium-grid) adds Selenide/Selenium Grid to the `spring-3` project in order to carry out E2E tests.
+
+- [`sql-schema`](https://github.com/gabrielcostasilva/testcontainers-spring/tree/sql-schema) replaces properties file with a SQL schema file that initiliazes the database.
 
 ## Overview
 This project consist of a single POJO ([`Customer`](./src/main/java/com/example/testcontainersb/Customer.java)) and its DAO ([`CustomerRepository`](./src/main/java/com/example/testcontainersb/CustomerRepository.java)). 
